@@ -31,7 +31,7 @@ Project  built from using
 
 
 ## Screenshot of  project :-
-![screenshot](./screenshot-10.png)
+![screenshot](./10.png)
 
 
 
