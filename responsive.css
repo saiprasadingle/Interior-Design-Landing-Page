@@ -1,0 +1,114 @@
+@media screen and (max-width: 1260px) {
+    /************************** Nav Section **************************/
+  
+    .navbar {
+      padding: 20px 20px;
+      gap: 50px;
+      align-items: center;
+    }
+  
+    .logo {
+      width: 100px;
+      height: 35px;
+    }
+  
+    .navContent {
+      flex-grow: 0;
+      border: none;
+    }
+  
+    .items {
+      display: none;
+    }
+  
+    .contact {
+      display: none;
+    }
+  
+    .menu {
+      display: inline-block;
+    }
+  
+    /************************** Hero Section **************************/
+  
+    .heroSection {
+      padding: 20px 20px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    h1 {
+      font-size: 52px;
+    }
+  
+    button {
+      padding: 20px 40px;
+      font-size: 20px;
+      margin-top: 30px;
+      max-width: 220px;
+    }
+  
+    .bulbBox {
+      position: absolute;
+      bottom: -145px;
+      right: 450px;
+      padding: 30px 60px 30px 30px;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 1020px) {
+    /************************** Hero Section **************************/
+    .heroSection {
+      padding: 20px 20px;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+  
+    h1 {
+      font-size: 46px;
+      line-height: 55px;
+      text-align: center;
+    }
+  
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      max-width: 200px;
+    }
+  
+    .puzzleBox {
+      position: relative;
+      top: 0;
+      right: 0;
+      padding: 20px;
+      font-size: 18px;
+      max-width: 250px;
+    }
+  
+    .puzzleLine {
+      display: none;
+    }
+  
+    .puzzleDot {
+      display: none;
+    }
+  
+    .bulbBox {
+      position: relative;
+      bottom: 0;
+      right: 0;
+      padding: 20px 37px;
+      font-size: 18px;
+      max-width: 250px;
+    }
+  
+    .bulbLine {
+      display: none;
+    }
+  
+    .bulbDot {
+      display: none;
+    }
+  }
